@@ -1,0 +1,42 @@
+nav, h1, h2, h3 {
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+}
+
+p, main li {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: lightskyblue;
+    width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 24px;
+    display: inline;
+}
+
+nav ul li #name {
+    float: left;
+}
+
+nav ul a {
+    float: right;
+    padding-right: 20px;
+}
+
+main {
+    padding-top: 100px;
+    padding-left: 20px;
+    background-color: lightgreen;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#skills img {
+    max-width: 100px;
+    max-height: 50px;
+}
