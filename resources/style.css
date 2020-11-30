@@ -25,8 +25,9 @@ nav ul li {
     display: inline;
 }
 
-nav ul li #name {
+#name {
     float: left;
+    display: none;
 }
 
 #light-mode{
@@ -72,8 +73,8 @@ main section {
     color: pink;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width: 1100px) {
     #name {
-        display: none;
+        display: inline;
     }
 }
