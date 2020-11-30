@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
 nav, h1, h2, h3 {
     font-family: "Roboto Slab", serif;
     font-weight: bold;
@@ -11,6 +16,7 @@ nav {
     position: fixed;
     background-color: lightskyblue;
     width: 100%;
+    margin-top: 0;
 }
 
 nav ul li {
@@ -23,20 +29,45 @@ nav ul li #name {
     float: left;
 }
 
+#light-mode{
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+#dark-mode {
+    background-color: black;
+    color: white;
+}
+
 nav ul a {
     float: right;
     padding-right: 20px;
+    text-decoration: none;
+}
+
+nav ul a:link, nav ul a:visited {
+    color: black;
 }
 
 main {
-    padding-top: 100px;
     padding-left: 20px;
-    background-color: lightgreen;
-    width: 100%;
+    background-image: url(images/background-img-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
     padding-bottom: 50px;
+}
+
+main section {
+    padding-top: 100px;
 }
 
 #skills img {
     max-width: 100px;
     max-height: 50px;
+}
+
+#contact a:link, #contact a:visited {
+    color: pink;
 }
